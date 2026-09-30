@@ -1,0 +1,2 @@
+class InvalidTestStatusError(Exception):
+    pass

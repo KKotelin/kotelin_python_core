@@ -1,0 +1,27 @@
+[
+  {
+    "name": "auth_test",
+    "status": "PASS",
+    "duration": "00:00:20"
+  },
+  {
+    "name": "logon_test",
+    "status": "FAIL",
+    "duration": "00:00:40"
+  },
+  {
+    "name": "create_user_test",
+    "status": "SKIP",
+    "duration": "00:00:00"
+  },
+  {
+    "name": "delete_user_test",
+    "status": "PASS",
+    "duration": "00:01:40"
+  },
+  {
+    "name": "update_user_test",
+    "status": "FAIL",
+    "duration": "00:01:20"
+  }
+]
