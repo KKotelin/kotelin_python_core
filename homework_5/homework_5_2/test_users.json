@@ -1,0 +1,26 @@
+[
+  {
+    "login": "test_user",
+    "password": "DemoPass123!",
+    "expected_result": "SUCCESS"
+  },
+  {
+    "password": "WrongPassword!",
+    "expected_result": "FAILURE"
+  },
+  {
+    "login": "unknown_user",
+    "password": "DemoPass123!",
+    "expected_result": "FAILURE"
+  },
+  {
+    "login": "",
+    "password": "DemoPass123!",
+    "expected_result": "FAILURE"
+  },
+  {
+    "login": "test_user",
+    "password": "",
+    "expected_result": "FAILURE"
+  }
+]
