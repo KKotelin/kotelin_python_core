@@ -23,3 +23,5 @@ class Therapist(Doctor):
             case _:
                 print("Пациенту назначено направление к терапевту")
                 patient.doctor = self
+
+        patient.doctor.treat()

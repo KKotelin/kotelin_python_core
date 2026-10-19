@@ -11,7 +11,3 @@ if __name__ == '__main__':
     therapist.assign_doctor(patient_1)
     therapist.assign_doctor(patient_2)
     therapist.assign_doctor(patient_3)
-
-    patient_1.doctor.treat()
-    patient_2.doctor.treat()
-    patient_3.doctor.treat()
